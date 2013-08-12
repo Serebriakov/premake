@@ -1,0 +1,16 @@
+{
+   "images" : [
+      {
+         "atlas_path" : "data/textures/sprites.png",
+         "map_path" : "data/textures/sprites.txt"
+      }
+   ],
+   "sequence" : [
+      "026",
+      "027",
+      "028",
+	  "027"
+   ],
+   "frametime" : 100,
+   "playback_type" : "once"
+}

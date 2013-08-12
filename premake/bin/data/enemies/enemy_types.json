@@ -1,0 +1,48 @@
+{
+   "enemies" : [
+      {
+	     "sprite" : "381",
+		 "configuration" : "data/enemies/bear.json"
+	  },
+	  {
+	     "sprite" : "313",
+		 "configuration" : "data/enemies/bear.json"
+	  },
+	  {
+	     "sprite" : "314",
+		 "configuration" : "data/enemies/bear.json"
+	  },
+	  {
+	     "sprite" : "386",
+		 "configuration" : "data/enemies/turtle.json"
+	  },
+	  {
+	     "sprite" : "317",
+		 "configuration" : "data/enemies/spiderweb.json"
+	  },
+	  {
+	     "sprite" : "318",
+		 "configuration" : "data/enemies/spider.json"
+	  },
+	  {
+	     "sprite" : "319",
+		 "configuration" : "data/enemies/spider.json"
+	  },
+	  {
+	     "sprite" : "396",
+		 "configuration" : "data/enemies/leopard.json"
+	  },
+	  {
+	     "sprite" : "397",
+		 "configuration" : "data/enemies/leopard.json"
+	  },
+	  {
+	     "sprite" : "349",
+		 "configuration" : "data/enemies/dino.json"
+	  },
+	  {
+	     "sprite" : "382",
+		 "configuration" : "data/enemies/bird.json"
+	  }
+   ]
+}

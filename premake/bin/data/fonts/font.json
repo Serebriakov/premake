@@ -1,0 +1,178 @@
+{
+   "images" : [
+      {
+         "atlas_path" : "data/textures/sprites.png",
+         "map_path" : "data/textures/sprites.txt"
+      }
+   ],
+   "characters" : [
+      {
+         "character" : "A",
+         "image"     : "241"
+      },
+      {
+         "character" : "B",
+         "image"     : "242"
+      },
+      {
+         "character" : "C",
+         "image"     : "243"
+      },
+      {
+         "character" : "D",
+         "image"     : "244"
+      },
+      {
+         "character" : "E",
+         "image"     : "245"
+      },
+      {
+         "character" : "F",
+         "image"     : "246"
+      },
+      {
+         "character" : "G",
+         "image"     : "247"
+      },
+      {
+         "character" : "H",
+         "image"     : "248"
+      },
+      {
+         "character" : "I",
+         "image"     : "249"
+      },
+      {
+         "character" : "J",
+         "image"     : "250"
+      },
+      {
+         "character" : "K",
+         "image"     : "251"
+      },
+      {
+         "character" : "L",
+         "image"     : "252"
+      },
+      {
+         "character" : "M",
+         "image"     : "253"
+      },
+      {
+         "character" : "N",
+         "image"     : "254"
+      },
+      {
+         "character" : "O",
+         "image"     : "255"
+      },
+      {
+         "character" : "P",
+         "image"     : "256"
+      },
+      {
+         "character" : "Q",
+         "image"     : "257"
+      },
+      {
+         "character" : "R",
+         "image"     : "258"
+      },
+      {
+         "character" : "S",
+         "image"     : "259"
+      },
+      {
+         "character" : "T",
+         "image"     : "260"
+      },
+      {
+         "character" : "U",
+         "image"     : "261"
+      },
+      {
+         "character" : "V",
+         "image"     : "262"
+      },
+      {
+         "character" : "W",
+         "image"     : "263"
+      },
+      {
+         "character" : "X",
+         "image"     : "264"
+      },
+      {
+         "character" : "Y",
+         "image"     : "265"
+      },
+      {
+         "character" : "Z",
+         "image"     : "266"
+      },
+      {
+         "character" : "%",
+         "image"     : "267"
+      },
+      {
+         "character" : ":",
+         "image"     : "268"
+      },
+      {
+         "character" : "?",
+         "image"     : "269"
+      },
+      {
+         "character" : "!",
+         "image"     : "270"
+      },
+      {
+         "character" : ".",
+         "image"     : "271"
+      },
+      {
+         "character" : ",",
+         "image"     : "272"
+      },
+      {
+         "character" : "0",
+         "image"     : "283"
+      },
+      {
+         "character" : "1",
+         "image"     : "284"
+      },
+      {
+         "character" : "2",
+         "image"     : "285"
+      },
+      {
+         "character" : "3",
+         "image"     : "286"
+      },
+      {
+         "character" : "4",
+         "image"     : "287"
+      },
+      {
+         "character" : "5",
+         "image"     : "288"
+      },
+      {
+         "character" : "6",
+         "image"     : "289"
+      },
+      {
+         "character" : "7",
+         "image"     : "290"
+      },
+      {
+         "character" : "8",
+         "image"     : "291"
+      },
+      {
+         "character" : "9",
+         "image"     : "292"
+      }
+   ]
+}

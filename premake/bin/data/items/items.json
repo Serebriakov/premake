@@ -1,0 +1,710 @@
+{
+   "items" : [
+      {
+         "letter" : "b",
+         "sprite" : "092",
+         "type" : "bonus"
+      },
+      {
+         "letter" : "o",
+         "sprite" : "093",
+         "type" : "bonus"
+      },
+      {
+         "letter" : "n",
+         "sprite" : "094",
+         "type" : "bonus"
+      },
+      {
+         "letter" : "u",
+         "sprite" : "095",
+         "type" : "bonus"
+      },
+      {
+         "letter" : "s",
+         "sprite" : "096",
+         "type" : "bonus"
+      },
+      {
+         "score" : 0,
+         "sprite" : "099",
+         "type" : "score"
+      },
+      {
+         "score" : 0,
+         "sprite" : "101",
+         "type" : "score"
+      },
+      {
+         "score" : 0,
+         "sprite" : "102",
+         "type" : "score"
+      },
+      {
+         "score" : 0,
+         "sprite" : "103",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "110",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "111",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_20000",
+         "score" : 20000,
+         "sprite" : "112",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_30000",
+         "score" : 30000,
+         "sprite" : "113",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_10000",
+         "score" : 10000,
+         "sprite" : "114",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_10000",
+         "score" : 10000,
+         "sprite" : "115",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "116",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_30000",
+         "score" : 30000,
+         "sprite" : "117",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_500",
+         "score" : 500,
+         "sprite" : "128",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_500",
+         "score" : 500,
+         "sprite" : "129",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_300",
+         "score" : 300,
+         "sprite" : "130",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_300",
+         "score" : 300,
+         "sprite" : "131",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_200",
+         "score" : 200,
+         "sprite" : "132",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_200",
+         "score" : 200,
+         "sprite" : "133",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "134",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_300",
+         "score" : 300,
+         "sprite" : "135",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_500",
+         "score" : 500,
+         "sprite" : "136",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_500",
+         "score" : 500,
+         "sprite" : "137",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_500",
+         "score" : 500,
+         "sprite" : "138",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_300",
+         "score" : 300,
+         "sprite" : "139",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_500",
+         "score" : 500,
+         "sprite" : "140",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_100",
+         "score" : 100,
+         "sprite" : "141",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "142",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "143",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_100",
+         "score" : 100,
+         "sprite" : "144",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_100",
+         "score" : 100,
+         "sprite" : "145",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_200",
+         "score" : 200,
+         "sprite" : "146",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_300",
+         "score" : 300,
+         "sprite" : "147",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_300",
+         "score" : 300,
+         "sprite" : "148",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "149",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_500",
+         "score" : 500,
+         "sprite" : "150",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "151",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_500",
+         "score" : 500,
+         "sprite" : "152",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_500",
+         "score" : 500,
+         "sprite" : "153",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_200",
+         "score" : 200,
+         "sprite" : "154",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "155",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "156",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "157",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "158",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "159",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "160",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "161",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "162",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_300",
+         "score" : 300,
+         "sprite" : "163",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "164",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "165",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "166",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_300",
+         "score" : 300,
+         "sprite" : "167",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_200",
+         "score" : 200,
+         "sprite" : "168",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "169",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_300",
+         "score" : 300,
+         "sprite" : "170",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_500",
+         "score" : 500,
+         "sprite" : "171",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_200",
+         "score" : 200,
+         "sprite" : "172",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_200",
+         "score" : 200,
+         "sprite" : "173",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "174",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "175",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_500",
+         "score" : 500,
+         "sprite" : "176",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "177",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "178",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "179",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "180",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_2000",
+         "score" : 2000,
+         "sprite" : "181",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_5000",
+         "score" : 5000,
+         "sprite" : "182",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "183",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_1000",
+         "score" : 1000,
+         "sprite" : "184",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_2000",
+         "score" : 2000,
+         "sprite" : "185",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_5000",
+         "score" : 5000,
+         "sprite" : "186",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_1000",
+         "score" : 1000,
+         "sprite" : "187",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_800",
+         "score" : 800,
+         "sprite" : "188",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_1000",
+         "score" : 1000,
+         "sprite" : "189",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_8000",
+         "score" : 8000,
+         "sprite" : "190",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_5000",
+         "score" : 5000,
+         "sprite" : "191",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "192",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_750",
+         "score" : 750,
+         "sprite" : "193",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_600",
+         "score" : 600,
+         "sprite" : "194",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_800",
+         "score" : 800,
+         "sprite" : "195",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_700",
+         "score" : 700,
+         "sprite" : "196",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_600",
+         "score" : 600,
+         "sprite" : "197",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_600",
+         "score" : 600,
+         "sprite" : "198",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_700",
+         "score" : 700,
+         "sprite" : "199",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_800",
+         "score" : 800,
+         "sprite" : "200",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "201",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "202",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_800",
+         "score" : 800,
+         "sprite" : "203",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_500",
+         "score" : 500,
+         "sprite" : "204",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "205",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_750",
+         "score" : 750,
+         "sprite" : "206",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_750",
+         "score" : 750,
+         "sprite" : "207",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_750",
+         "score" : 750,
+         "sprite" : "208",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "209",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_750",
+         "score" : 750,
+         "sprite" : "210",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "211",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_800",
+         "score" : 800,
+         "sprite" : "212",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_700",
+         "score" : 700,
+         "sprite" : "213",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_700",
+         "score" : 700,
+         "sprite" : "214",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "215",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_5000",
+         "score" : 5000,
+         "sprite" : "216",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "217",
+         "type" : "score"
+      },
+      {
+         "effect" : "effect_score_2000",
+         "score" : 2000,
+         "sprite" : "218",
+         "type" : "score"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "219",
+         "type" : "score"
+      },
+      {
+         "sprite" : "220",
+         "type" : "death"
+      },
+      {
+         "sprite" : "221",
+         "type" : "death"
+      },
+      {
+	     "effect" : "effect_super",
+         "sprite" : "222",
+         "type" : "explosive"
+      },
+      {
+         "sprite" : "223",
+         "type" : "explosive"
+      },
+      {
+         "sprite" : "226",
+         "type" : "energy"
+      },
+      {
+         "effect" : "effect_1up",
+         "sprite" : "227",
+         "type" : "1up"
+      },
+      {
+         "sprite" : "233",
+         "type" : "light_on"
+      },
+      {
+         "sprite" : "234",
+         "type" : "light_off"
+      },
+	  {
+         "sprite" : "066",
+         "type" : "weapon_1"
+      },
+	  {
+         "sprite" : "235",
+         "type" : "weapon_2"
+      },
+      {
+         "effect" : "?",
+         "score" : -1,
+         "sprite" : "273",
+         "type" : "score"
+      },
+	  {
+         "sprite" : "278",
+         "type" : "end_of_level"
+      },
+      {
+         "sprite" : "279",
+         "type" : "end_of_level"
+      },
+      {
+         "new_sprite" : 280,
+         "sprite" : "281",
+         "type" : "checkpoint"
+      }
+   ]
+}

@@ -1,0 +1,12 @@
+{
+   "states" : [
+	  {
+	     "state" : "moving",
+		 "image_sequence" : "data/animations/enemies/bird/moving.json"
+	  },
+	  {
+		 "state" : "dying",
+		 "image_sequence" : "data/animations/enemies/bird/dying.json"
+	  }
+   ]
+}

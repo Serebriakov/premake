@@ -1,0 +1,16 @@
+{
+   "states" : [
+      {
+	     "state" : "idle",
+		 "image_sequence" : "data/animations/enemies/dino/idle.json"
+	  },
+	  {
+	     "state" : "moving",
+		 "image_sequence" : "data/animations/enemies/dino/moving.json"
+	  },
+	  {
+		 "state" : "dying",
+		 "image_sequence" : "data/animations/enemies/dino/dying.json"
+	  }
+   ]
+}

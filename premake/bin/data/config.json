@@ -1,0 +1,10 @@
+{
+   "width" : 320,
+   "height" : 200,
+   "fullscreen" : 0,
+   "bits_per_pixel" : 32,
+   "multisampling" : 0,
+   "v-sync" : 1,
+   "gl_version_major" : 2,
+   "gl_version_minor" : 0
+}

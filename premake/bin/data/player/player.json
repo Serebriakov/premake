@@ -1,0 +1,54 @@
+{
+	"animations" : [
+		{
+			"state" : "idle",
+			"image_sequence" : "data/animations/player/idle.json"
+		},
+		{
+			"state" : "jumping",
+			"image_sequence" : "data/animations/player/jumping.json"
+		},
+		{
+			"state" : "falling",
+			"image_sequence" : "data/animations/player/falling.json"
+		},
+		{
+			"state" : "taunting",
+			"image_sequence" : "data/animations/player/taunting.json"
+		},
+		{
+			"state" : "running",
+			"image_sequence" : "data/animations/player/running.json"
+		},
+		{
+			"state" : "sliding",
+			"image_sequence" : "data/animations/player/sliding.json"
+		},
+		{
+			"state" : "dying",
+			"image_sequence" : "data/animations/player/dying.json"
+		},
+		{
+			"state" : "attacking_up",
+			"image_sequence" : "data/animations/player/attacking_up.json"
+		},
+		{
+			"state" : "attacking",
+			"image_sequence" : "data/animations/player/attacking.json"
+		},
+		{
+			"state" : "attacking_down",
+			"image_sequence" : "data/animations/player/attacking_down.json"
+		}
+	],
+	
+	"hitbox" : {
+		"width" : 16,
+		"height" : 16
+	},
+	
+	"speed" : {
+		"horizontal" : 120.0,
+		"vertical" : 4.25
+	}
+}
