@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C04904FA-DD4D-4501-BEFF-A9D156B0C1A5}</ProjectGuid>
+    <RootNamespace>pre2</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>premake</ProjectName>
+    <SccProjectName>Svn</SccProjectName>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.60610.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)..\..\..\bin\</OutDir>
+    <IntDir>$(ProjectDir)</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>$(ProjectName)_$(Configuration)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)..\..\..\bin\</OutDir>
+    <IntDir>$(ProjectDir)</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>$(ProjectName)_$(Configuration)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\ext\SDL2-2.0.0\include;$(ProjectDir)..\..\..\ext\SDL2_image-2.0.0\include;$(ProjectDir)..\..\..\ext\SDL2_mixer-2.0.0\include;$(ProjectDir)..\..\..\ext\glew-1.9.0\include;$(ProjectDir)..\..\..\ext\glm-0.9.4.4;$(ProjectDir)..\..\..\ext\jsoncpp-src-0.5.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_PLATFORM_WIN;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;opengl32.lib;glu32.lib;glew32s.lib;json_lib_mtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)_$(Configuration).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\..\ext\SDL2-2.0.0\lib\vs2012\debug;$(ProjectDir)..\..\..\ext\SDL2_image-2.0.0\lib\vs2012\debug;$(ProjectDir)..\..\..\ext\SDL2_mixer-2.0.0\lib\vs2012\debug;$(ProjectDir)..\..\..\ext\glew-1.9.0\lib;$(ProjectDir)..\..\..\ext\jsoncpp-src-0.5.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\ext\SDL2-2.0.0\include;$(ProjectDir)..\..\..\ext\SDL2_image-2.0.0\include;$(ProjectDir)..\..\..\ext\SDL2_mixer-2.0.0\include;$(ProjectDir)..\..\..\ext\glew-1.9.0\include;$(ProjectDir)..\..\..\ext\glm-0.9.4.4;$(ProjectDir)..\..\..\ext\jsoncpp-src-0.5.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_PLATFORM_WIN;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;opengl32.lib;glu32.lib;glew32s.lib;json_lib_mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)_$(Configuration).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\..\ext\SDL2-2.0.0\lib\vs2012\release;$(ProjectDir)..\..\..\ext\SDL2_image-2.0.0\lib\vs2012\release;$(ProjectDir)..\..\..\ext\SDL2_mixer-2.0.0\lib\vs2012\release;$(ProjectDir)..\..\..\ext\glew-1.9.0\lib;$(ProjectDir)..\..\..\ext\jsoncpp-src-0.5.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\aabb.h" />
+    <ClInclude Include="..\..\..\src\animationbase.h" />
+    <ClInclude Include="..\..\..\src\animationmanager.h" />
+    <ClInclude Include="..\..\..\src\collisiondetection.h" />
+    <ClInclude Include="..\..\..\src\dictionary.hpp" />
+    <ClInclude Include="..\..\..\src\dyinganimation.h" />
+    <ClInclude Include="..\..\..\src\enemy1.h" />
+    <ClInclude Include="..\..\..\src\enemy10.h" />
+    <ClInclude Include="..\..\..\src\enemy2.h" />
+    <ClInclude Include="..\..\..\src\enemy4.h" />
+    <ClInclude Include="..\..\..\src\enemy8.h" />
+    <ClInclude Include="..\..\..\src\enemy9.h" />
+    <ClInclude Include="..\..\..\src\enemybase.h" />
+    <ClInclude Include="..\..\..\src\font.h" />
+    <ClInclude Include="..\..\..\src\gate.h" />
+    <ClInclude Include="..\..\..\src\gateanimation.h" />
+    <ClInclude Include="..\..\..\src\hud.h" />
+    <ClInclude Include="..\..\..\src\imagesequence.h" />
+    <ClInclude Include="..\..\..\src\itemconfiguration.h" />
+    <ClInclude Include="..\..\..\src\light.h" />
+    <ClInclude Include="..\..\..\src\platform.h" />
+    <ClInclude Include="..\..\..\src\platformspecific.h" />
+    <ClInclude Include="..\..\..\src\platform_win.h" />
+    <ClInclude Include="..\..\..\src\logger.h" />
+    <ClInclude Include="..\..\..\src\glrendercontext.h" />
+    <ClInclude Include="..\..\..\src\glrendercontextconfiguration.h" />
+    <ClInclude Include="..\..\..\src\glesrenderer.h" />
+    <ClInclude Include="..\..\..\src\glsl1shaderprogram.h" />
+    <ClInclude Include="..\..\..\src\image.h" />
+    <ClInclude Include="..\..\..\src\indexbufferobject.h" />
+    <ClInclude Include="..\..\..\src\renderstate.h" />
+    <ClInclude Include="..\..\..\src\scoreanimation.h" />
+    <ClInclude Include="..\..\..\src\sprite.h" />
+    <ClInclude Include="..\..\..\src\stopwatch.h" />
+    <ClInclude Include="..\..\..\src\textureobject.h" />
+    <ClInclude Include="..\..\..\src\vertexbufferobject.h" />
+    <ClInclude Include="..\..\..\src\tools.h" />
+    <ClInclude Include="..\..\..\src\camera2d.h" />
+    <ClInclude Include="..\..\..\src\constants.h" />
+    <ClInclude Include="..\..\..\src\game.h" />
+    <ClInclude Include="..\..\..\src\player.h" />
+    <ClInclude Include="..\..\..\src\gamestate.h" />
+    <ClInclude Include="..\..\..\src\ingamestate.h" />
+    <ClInclude Include="..\..\..\src\item.h" />
+    <ClInclude Include="..\..\..\src\level.h" />
+    <ClInclude Include="..\..\..\src\tile.h" />
+    <ClInclude Include="..\..\..\src\weapon.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\aabb.cpp" />
+    <ClCompile Include="..\..\..\src\animationbase.cpp" />
+    <ClCompile Include="..\..\..\src\animationmanager.cpp" />
+    <ClCompile Include="..\..\..\src\collisiondetection.cpp" />
+    <ClCompile Include="..\..\..\src\dyinganimation.cpp" />
+    <ClCompile Include="..\..\..\src\enemy1.cpp" />
+    <ClCompile Include="..\..\..\src\enemy10.cpp" />
+    <ClCompile Include="..\..\..\src\enemy2.cpp" />
+    <ClCompile Include="..\..\..\src\enemy4.cpp" />
+    <ClCompile Include="..\..\..\src\enemy8.cpp" />
+    <ClCompile Include="..\..\..\src\enemy9.cpp" />
+    <ClCompile Include="..\..\..\src\enemybase.cpp" />
+    <ClCompile Include="..\..\..\src\font.cpp" />
+    <ClCompile Include="..\..\..\src\gate.cpp" />
+    <ClCompile Include="..\..\..\src\gateanimation.cpp" />
+    <ClCompile Include="..\..\..\src\hud.cpp" />
+    <ClCompile Include="..\..\..\src\imagesequence.cpp" />
+    <ClCompile Include="..\..\..\src\itemconfiguration.cpp" />
+    <ClCompile Include="..\..\..\src\light.cpp" />
+    <ClCompile Include="..\..\..\src\logger.cpp" />
+    <ClCompile Include="..\..\..\src\glrendercontext.cpp" />
+    <ClCompile Include="..\..\..\src\glrendercontextconfiguration.cpp" />
+    <ClCompile Include="..\..\..\src\glesrenderer.cpp" />
+    <ClCompile Include="..\..\..\src\glsl1shaderprogram.cpp" />
+    <ClCompile Include="..\..\..\src\image.cpp" />
+    <ClCompile Include="..\..\..\src\indexbufferobject.cpp" />
+    <ClCompile Include="..\..\..\src\platform.cpp" />
+    <ClCompile Include="..\..\..\src\renderstate.cpp" />
+    <ClCompile Include="..\..\..\src\scoreanimation.cpp" />
+    <ClCompile Include="..\..\..\src\sprite.cpp" />
+    <ClCompile Include="..\..\..\src\stopwatch.cpp" />
+    <ClCompile Include="..\..\..\src\textureobject.cpp" />
+    <ClCompile Include="..\..\..\src\vertexbufferobject.cpp" />
+    <ClCompile Include="..\..\..\src\tools.cpp" />
+    <ClCompile Include="..\..\..\src\camera2d.cpp" />
+    <ClCompile Include="..\..\..\src\game.cpp" />
+    <ClCompile Include="..\..\..\src\main.cpp" />
+    <ClCompile Include="..\..\..\src\player.cpp" />
+    <ClCompile Include="..\..\..\src\gamestate.cpp" />
+    <ClCompile Include="..\..\..\src\ingamestate.cpp" />
+    <ClCompile Include="..\..\..\src\item.cpp" />
+    <ClCompile Include="..\..\..\src\level.cpp" />
+    <ClCompile Include="..\..\..\src\tile.cpp" />
+    <ClCompile Include="..\..\..\src\weapon.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{cdac3ee7-c716-4fe7-bf3f-c127ca826554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Containers">
+      <UniqueIdentifier>{6b4615a6-4179-4457-8f5b-ac91c32f181c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\PlatformSpecific">
+      <UniqueIdentifier>{be194c27-77b4-42d1-a399-3abbed188ef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\PlatformSpecific\Win">
+      <UniqueIdentifier>{83aa2d04-9d95-4886-a6ee-6b77eecddf73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Logger">
+      <UniqueIdentifier>{ba28f7f7-9772-46d4-a574-b4ce879b24f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering">
+      <UniqueIdentifier>{5a55e5da-1cf9-4f50-a991-39811d70c066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\RenderContext">
+      <UniqueIdentifier>{a62d523a-28b1-4480-9034-17df5afa21b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Tools">
+      <UniqueIdentifier>{02968464-9dd6-4adf-bc15-9595e70c642b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{f2e761d2-ef60-42fb-ae92-5a1906ab2148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Gamestates">
+      <UniqueIdentifier>{462dae65-765d-440a-ba98-d36a0231934c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Level">
+      <UniqueIdentifier>{1f8daef7-3818-48b1-98ab-05dc46778f57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Animations">
+      <UniqueIdentifier>{133fc6bd-a822-4f74-a659-ed9ba8755dbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player">
+      <UniqueIdentifier>{887f0551-48e9-4468-9b0f-dd396902e22f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapons">
+      <UniqueIdentifier>{28712119-c311-4321-ac7a-4878a825f97d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemies">
+      <UniqueIdentifier>{56285f32-cdda-4b79-8f6a-0bb8ebcb778c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Fullscreen effects">
+      <UniqueIdentifier>{905b16d6-1ae5-4a62-9c7a-687acc77e654}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\dictionary.hpp">
+      <Filter>Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\platformspecific.h">
+      <Filter>Engine\PlatformSpecific</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\platform_win.h">
+      <Filter>Engine\PlatformSpecific\Win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\logger.h">
+      <Filter>Engine\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\glrendercontext.h">
+      <Filter>Engine\Rendering\RenderContext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\glrendercontextconfiguration.h">
+      <Filter>Engine\Rendering\RenderContext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tools.h">
+      <Filter>Engine\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\camera2d.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\constants.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gamestate.h">
+      <Filter>Game\Gamestates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ingamestate.h">
+      <Filter>Game\Gamestates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\item.h">
+      <Filter>Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\level.h">
+      <Filter>Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tile.h">
+      <Filter>Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\platform.h">
+      <Filter>Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gate.h">
+      <Filter>Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\aabb.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\stopwatch.h">
+      <Filter>Engine\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\collisiondetection.h">
+      <Filter>Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\player.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\weapon.h">
+      <Filter>Game\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\animationmanager.h">
+      <Filter>Game\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\scoreanimation.h">
+      <Filter>Game\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\animationbase.h">
+      <Filter>Game\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\itemconfiguration.h">
+      <Filter>Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\enemybase.h">
+      <Filter>Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\dyinganimation.h">
+      <Filter>Game\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gateanimation.h">
+      <Filter>Game\Fullscreen effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\light.h">
+      <Filter>Game\Fullscreen effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\hud.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\enemy10.h">
+      <Filter>Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\enemy1.h">
+      <Filter>Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\enemy2.h">
+      <Filter>Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\enemy4.h">
+      <Filter>Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\enemy8.h">
+      <Filter>Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\enemy9.h">
+      <Filter>Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\vertexbufferobject.h">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\font.h">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\glesrenderer.h">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\glsl1shaderprogram.h">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\image.h">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\imagesequence.h">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\indexbufferobject.h">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderstate.h">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\sprite.h">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\textureobject.h">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\logger.cpp">
+      <Filter>Engine\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\glrendercontext.cpp">
+      <Filter>Engine\Rendering\RenderContext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\glrendercontextconfiguration.cpp">
+      <Filter>Engine\Rendering\RenderContext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tools.cpp">
+      <Filter>Engine\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\camera2d.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gamestate.cpp">
+      <Filter>Game\Gamestates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ingamestate.cpp">
+      <Filter>Game\Gamestates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\item.cpp">
+      <Filter>Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\level.cpp">
+      <Filter>Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tile.cpp">
+      <Filter>Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\platform.cpp">
+      <Filter>Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\aabb.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gate.cpp">
+      <Filter>Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\stopwatch.cpp">
+      <Filter>Engine\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\player.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\weapon.cpp">
+      <Filter>Game\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\animationmanager.cpp">
+      <Filter>Game\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\scoreanimation.cpp">
+      <Filter>Game\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\animationbase.cpp">
+      <Filter>Game\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\itemconfiguration.cpp">
+      <Filter>Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\enemybase.cpp">
+      <Filter>Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\dyinganimation.cpp">
+      <Filter>Game\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gateanimation.cpp">
+      <Filter>Game\Fullscreen effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\light.cpp">
+      <Filter>Game\Fullscreen effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\hud.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\enemy10.cpp">
+      <Filter>Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\collisiondetection.cpp">
+      <Filter>Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\enemy1.cpp">
+      <Filter>Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\enemy2.cpp">
+      <Filter>Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\enemy4.cpp">
+      <Filter>Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\enemy8.cpp">
+      <Filter>Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\enemy9.cpp">
+      <Filter>Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\font.cpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\glesrenderer.cpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\glsl1shaderprogram.cpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\image.cpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\imagesequence.cpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\indexbufferobject.cpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderstate.cpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\sprite.cpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\textureobject.cpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\vertexbufferobject.cpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
