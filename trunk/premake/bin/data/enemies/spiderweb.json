@@ -1,0 +1,8 @@
+{
+   "states" : [
+      {
+	     "state" : "idle",
+		 "image_sequence" : "data/animations/enemies/spiderweb/idle.json"
+      }
+   ]
+}

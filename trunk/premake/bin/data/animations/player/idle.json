@@ -1,0 +1,15 @@
+{
+   "images" : [
+      {
+         "atlas_path" : "data/textures/sprites.png",
+         "map_path" : "data/textures/sprites.txt"
+      }
+   ],
+   "sequence" : [
+      "008",
+      "009",
+      "010"
+   ],
+   "frametime" : 200,
+   "playback_type" : "forward_backward"
+}

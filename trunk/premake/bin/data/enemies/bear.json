@@ -1,0 +1,20 @@
+{
+   "states" : [
+      {
+	     "state" : "spawning",
+		 "image_sequence" : "data/animations/enemies/bear/spawning.json"
+      },
+	  {
+	     "state" : "moving",
+		 "image_sequence" : "data/animations/enemies/bear/moving.json"
+	  },
+	  {
+		 "state" : "dying",
+		 "image_sequence" : "data/animations/enemies/bear/dying.json"
+	  },
+	  {
+	     "state" : "disappearing",
+		 "image_sequence" : "data/animations/enemies/bear/disappearing.json"
+	  }
+   ]
+}

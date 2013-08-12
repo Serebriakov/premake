@@ -1,0 +1,92 @@
+{
+   "effects" : [
+      {
+         "name" : "effect_1up",
+         "sprite" : "227"
+      },
+      {
+         "name" : "effect_score_100",
+         "sprite" : "074"
+      },
+	  {
+         "name" : "effect_score_200",
+         "sprite" : "075"
+      },
+      {
+         "name" : "effect_score_300",
+         "sprite" : "076"
+      },
+      {
+         "name" : "effect_score_500",
+         "sprite" : "077"
+      },
+      {
+         "name" : "effect_score_600",
+         "sprite" : "078"
+      },
+      {
+         "name" : "effect_score_700",
+         "sprite" : "079"
+      },
+      {
+         "name" : "effect_score_750",
+         "sprite" : "080"
+      },
+      {
+         "name" : "effect_score_800",
+         "sprite" : "081"
+      },
+      {
+         "name" : "effect_score_1000",
+         "sprite" : "082"
+      },
+      {
+         "name" : "effect_score_2000",
+         "sprite" : "083"
+      },
+      {
+         "name" : "effect_score_5000",
+         "sprite" : "084"
+      },
+      {
+         "name" : "effect_score_8000",
+         "sprite" : "085"
+      },
+      {
+         "name" : "effect_score_10000",
+         "sprite" : "086"
+      },
+      {
+         "name" : "effect_score_20000",
+         "sprite" : "087"
+      },
+      {
+         "name" : "effect_score_30000",
+         "sprite" : "088"
+      },
+      {
+         "name" : "effect_score_60000",
+         "sprite" : "089"
+      },
+      {
+         "name" : "effect_score_100000",
+         "sprite" : "090"
+      },
+      {
+         "name" : "effect_yuck",
+         "sprite" : "228"
+      },
+      {
+         "name" : "effect_extra",
+         "sprite" : "229"
+      },
+      {
+         "name" : "effect_super",
+         "sprite" : "230"
+      },
+      {
+         "name" : "effect_yeah",
+         "sprite" : "231"
+      }
+   ]
+}

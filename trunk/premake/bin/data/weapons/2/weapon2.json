@@ -1,0 +1,58 @@
+{
+	"states" : [
+		{
+			"state" : "attacking",
+			"image_sequence" : "data/animations/weapons/2/attacking.json",
+			"offsets" : [
+				{
+					"x" : -11,
+					"y" : -13
+				},
+				{
+					"x" : 2,
+					"y" : -26
+				},
+				{
+					"x" : 19,
+					"y" : 16
+				}
+			]
+		},
+		{
+			"state" : "attacking_up",
+			"image_sequence" : "data/animations/weapons/2/attacking_up.json",
+			"offsets" : [
+				{
+					"x" : -16,
+					"y" : 13
+				},
+				{
+					"x" : 1,
+					"y" : -30
+				},
+				{
+					"x" : 21,
+					"y" : -22
+				}
+			]
+		},
+		{
+			"state" : "attacking_down",
+			"image_sequence" : "data/animations/weapons/2/attacking_down.json",
+			"offsets" : [
+				{
+					"x" : -10,
+					"y" : -13
+				},
+				{
+					"x" : 2,
+					"y" : -26
+				},
+				{
+					"x" : 14,
+					"y" : 24
+				}
+			]
+		}
+	]
+}

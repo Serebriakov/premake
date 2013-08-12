@@ -1,0 +1,20 @@
+{
+   "states" : [
+      {
+	     "state" : "spawning",
+		 "image_sequence" : "data/animations/enemies/turtle/spawning.json"
+      },
+	  {
+	     "state" : "moving",
+		 "image_sequence" : "data/animations/enemies/turtle/moving.json"
+	  },
+	  {
+		 "state" : "dying",
+		 "image_sequence" : "data/animations/enemies/turtle/dying.json"
+	  },
+	  {
+	     "state" : "disappearing",
+		 "image_sequence" : "data/animations/enemies/turtle/disappearing.json"
+	  }
+   ]
+}

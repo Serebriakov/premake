@@ -1,0 +1,16 @@
+{
+   "states" : [
+      {
+	     "state" : "idle",
+		 "image_sequence" : "data/animations/enemies/leopard/idle.json"
+	  },
+	  {
+	     "state" : "moving",
+		 "image_sequence" : "data/animations/enemies/leopard/moving.json"
+	  },
+	  {
+		 "state" : "dying",
+		 "image_sequence" : "data/animations/enemies/leopard/dying.json"
+	  }
+   ]
+}

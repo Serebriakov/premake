@@ -1,0 +1,6 @@
+level_11_tile_000 = 0 0 16 16
+level_11_tile_001 = 18 0 16 16
+level_11_tile_002 = 36 0 16 16
+level_11_tile_003 = 0 18 16 16
+level_11_tile_004 = 18 18 16 16
+level_11_tile_005 = 0 36 16 16
