@@ -145,7 +145,7 @@ void Player::Update()
 
 	// move the sprite with the hitbox
 	glm::vec2 pos;
-	pos.x = m_Hitbox.m_Position.x + (m_Hitbox.m_Size.x / 2.f) - (m_Sprite->GetSize().x / 2.f);
+	pos.x = m_Hitbox.GetCenterPosition().x - (m_Sprite->GetSize().x / 2.f);
 	pos.y = m_Hitbox.m_Position.y + m_Hitbox.m_Size.y - m_Sprite->GetSize().y;
 	m_Sprite->SetPosition(pos);
 

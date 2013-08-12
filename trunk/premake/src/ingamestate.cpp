@@ -685,7 +685,7 @@ void InGameState::EnterState()
 	// load level file
 	ItemConfiguration item_configuration;
 	item_configuration.LoadFromFile("data/items/items.json", "data/items/effects.json");
-	m_Level.LoadFromFile("data/levels/level2.json", "data/enemies/enemy_types.json", item_configuration, rs_background, rs_tiles);
+	m_Level.LoadFromFile("data/levels/level1.json", "data/enemies/enemy_types.json", item_configuration, rs_background, rs_tiles);
 
 	// initialize the player
 	m_Player->LoadConfigFromFile("data/player/player.json", "data/player/hud.json");
