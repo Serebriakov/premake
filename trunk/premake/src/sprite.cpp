@@ -89,9 +89,9 @@ void Sprite::Animate()
 {
 	if( m_Animated )
 	{
-		Uint32 frame_steps = m_AnimationTimer.GetCycles();
+		Uint64 frame_steps = m_AnimationTimer.GetCycles();
 		size_t last_frame = m_CurrentFrameNumber;
-		for( Uint32 step = 0; step < frame_steps; ++step )
+		for( Uint64 step = 0; step < frame_steps; ++step )
 		{
 			m_CurrentFrameNumber = m_ImageSequences[m_CurrentSequenceIndex]->GetNextImageIndex(m_CurrentFrameNumber);
 		}

@@ -702,8 +702,8 @@ void InGameState::EnterState()
 	m_GateAnimation->Initialize();
 
 	// timer initialization - this should be the last thing in this function
-	m_SumTime = 0;
-	m_PrevTime = SDL_GetTicks();
+	m_Stopwatch.SetCycleInterval(TIMESTEP);
+	m_Stopwatch.Reset();
 }
 
 void InGameState::LeaveState()
@@ -716,24 +716,26 @@ void InGameState::LeaveState()
 void InGameState::MainLoop()
 {
 	// the mainloop should run at a fixed rate
-	Uint32 t = SDL_GetTicks();
-	m_SumTime += t - m_PrevTime;
-	m_PrevTime = t;
-
-	if( m_SumTime <= (TIMESTEP - 5) )
+	if( m_Game->IsActive() )
 	{
-		SDL_Delay(TIMESTEP - m_SumTime);
-	}
-	
-	while( m_SumTime >= TIMESTEP )
-	{
-		m_SumTime -= TIMESTEP;
+		Uint64 cycles = m_Stopwatch.GetCycles();
 
-		if( m_Game->IsActive() )
+		if( cycles == 0 )
 		{
-			HandleInput();
-			Update();
-			Render();
+			double elapsed_time = m_Stopwatch.GetElapsedTime();
+			if( elapsed_time <= (TIMESTEP - 5) )
+			{
+				SDL_Delay(Uint32(TIMESTEP - elapsed_time));
+			}
+		}
+		else
+		{
+			for( Uint64 i = 0; i < cycles; ++i )
+			{
+				HandleInput();
+				Update();
+				Render();
+			}
 		}
 	}
 }

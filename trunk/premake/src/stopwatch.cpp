@@ -1,13 +1,13 @@
 #include "stopwatch.h"
 
 
-Stopwatch::Stopwatch(Uint32 CycleInterval)
+Stopwatch::Stopwatch(double CycleInterval)
 {
 	SetCycleInterval(CycleInterval);
 	Reset();
 }
 
-void Stopwatch::SetCycleInterval(Uint32 CycleInterval)
+void Stopwatch::SetCycleInterval(double CycleInterval)
 {
 	if( CycleInterval > 0 )
 	{
@@ -22,27 +22,27 @@ void Stopwatch::SetCycleInterval(Uint32 CycleInterval)
 /*
 Get the current value of the stopwatch in milliseconds
 */
-Uint32 Stopwatch::GetElapsedTime() const
+double Stopwatch::GetElapsedTime() const
 {
-	return SDL_GetTicks() - m_StartTime;
+	return (SDL_GetPerformanceCounter() - m_StartTime) / (double)SDL_GetPerformanceFrequency() * 1000.0;
 }
 
 /*
 Get the number of cycles that has passed since the last call to this function
 */
-Uint32 Stopwatch::GetCycles()
+Uint64 Stopwatch::GetCycles()
 {
-	Uint32 num_of_cycles = GetElapsedTime() / m_CycleInterval;
-	m_StartTime += num_of_cycles * m_CycleInterval;
+	Uint64 num_of_cycles = (Uint64)(GetElapsedTime() / m_CycleInterval);
+	m_StartTime += (Uint64)(num_of_cycles * m_CycleInterval / 1000.0 * SDL_GetPerformanceFrequency());
 	return num_of_cycles;
 }
 
 /*
 Get the portion of the cycle interval that has passed
 */
-float Stopwatch::GetCycleState() const
+double Stopwatch::GetCycleState() const
 {
-	return (float)GetElapsedTime() / (float)m_CycleInterval;
+	return GetElapsedTime() / m_CycleInterval;
 }
 
 /*
@@ -50,5 +50,5 @@ Reset the stopwatch
 */
 void Stopwatch::Reset()
 {
-	m_StartTime = SDL_GetTicks();
+	m_StartTime = SDL_GetPerformanceCounter();
 }

@@ -17,8 +17,7 @@ Gameplay state
 class InGameState : public GameState
 {
 private :
-	Uint32						m_SumTime;										// accumulated elapsed time since the last timestep, in milliseconds
-	Uint32						m_PrevTime;										// time value in the last loop iteration
+	Stopwatch					m_Stopwatch;									// timer used for fixing the timestep
 	
 
 protected :

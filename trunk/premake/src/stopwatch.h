@@ -10,23 +10,23 @@ Helper class for measuring elapsed time
 class Stopwatch
 {
 protected :
-	Uint32						m_StartTime;									// the time when the stopwatch was started
-	Uint32						m_CycleInterval;								// length of 1 cycle
+	Uint64						m_StartTime;									// the time when the stopwatch was started
+	double						m_CycleInterval;								// length of 1 cycle
 
 
 public :
-	Stopwatch(Uint32 CycleInterval = 1);
+	Stopwatch(double CycleInterval = 1);
 
-	void SetCycleInterval(Uint32 CycleInterval);
+	void SetCycleInterval(double CycleInterval);
 
 	// get the current value of the stopwatch in milliseconds
-	Uint32 GetElapsedTime() const;
+	double GetElapsedTime() const;
 
 	// get the number of cycles that has passed since the last call to this function
-	Uint32 GetCycles();
+	Uint64 GetCycles();
 
 	// get the portion of the cycle interval that has passed
-	float GetCycleState() const;
+	double GetCycleState() const;
 
 	// reset the stopwatch
 	void Reset();

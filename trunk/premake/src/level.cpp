@@ -1013,7 +1013,7 @@ const Tile &Level::GetTile(int Row, int Column) const
 
 void Level::AnimateTiles()
 {
-	m_AnimatedTileFrameNumber += m_BackgroundAnimTimer.GetCycles();
+	m_AnimatedTileFrameNumber += (unsigned char)(m_BackgroundAnimTimer.GetCycles());
 	m_AnimatedTileFrameNumber %= 3;
 }
 

@@ -26,7 +26,7 @@ void GateAnimation::Initialize(Uint32 AnimationLength)
 
 float GateAnimation::GetAnimationState() const
 {
-	return m_AnimationTimer.GetCycleState();
+	return (float)(m_AnimationTimer.GetCycleState());
 }
 
 void GateAnimation::StartAnimation()
@@ -36,7 +36,7 @@ void GateAnimation::StartAnimation()
 
 void GateAnimation::Update()
 {
-	float t = m_AnimationTimer.GetCycleState();
+	float t = (float)(m_AnimationTimer.GetCycleState());
 	Tools::ClampValue<float>(t, 0.f, 1.f);
 
 	if( t <= 0.5 )
