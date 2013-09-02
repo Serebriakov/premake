@@ -3,7 +3,7 @@
 
 
 #define CONFIG_PATH "data/config.json"											// path of the global config file
-#define TIMESTEP 16																// length of the timestep in milliseconds
+#define TIMESTEP 16.666f														// length of the timestep in milliseconds
 #define WINDOW_TITLE "premake"													// title of the window
 
 #endif

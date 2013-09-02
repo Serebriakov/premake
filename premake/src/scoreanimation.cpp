@@ -23,7 +23,7 @@ void ScoreAnimation::Animate()
 	m_Sprite->Animate();
 
 	glm::vec2 pos = m_Sprite->GetPosition();
-	pos.y = m_StartY - (m_Timer->GetCycleState() * m_MaxDistance);
+	pos.y = m_StartY - (float)(m_Timer->GetCycleState() * m_MaxDistance);
 	m_Sprite->SetPosition(pos);
 }
 

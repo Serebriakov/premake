@@ -23,7 +23,7 @@ void DyingAnimation::Animate()
 {
 	m_Sprite->Animate();
 
-	float t = m_Timer->GetCycleState() * 50.f;
+	float t = (float)(m_Timer->GetCycleState() * 50.f);
 	
 	glm::vec2 current_pos;
 	current_pos.x = m_StartPosition.x + (m_InitialVelocity.x * t * (float)cos(m_Angle * M_PI / 180.f));
