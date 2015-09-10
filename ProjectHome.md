@@ -1,0 +1,2 @@
+The aim of this project is to create a (not a 100%) remake of the 2D platformer game named Prehistorik 2, form 1993. Just for fun.
+The code is written starting from scratch but the content (sprites, level files, etc) are extracted from the original game (at least until someone shows up to recreate them).
